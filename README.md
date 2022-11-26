@@ -16,3 +16,6 @@ Clone this repo under the root user, and run
 
 To allow an IDE to ssh into TrueNAS by going to System Settings -> Services -> SSH -> Configure
 ![TrueNAS SSH configuration](./images/ssh.png)
+
+jellyfin install
+https://forum.level1techs.com/t/getting-started-with-truenas-scale-part-3-installing-jellyfin-via-the-gui-apps-explainer/183512

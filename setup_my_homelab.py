@@ -17,9 +17,11 @@ for line_number in range(0, len(sshd_config_contents)):
 with open(sshd_config_path, "w") as f:
     f.write("\n".join(sshd_config_contents))
 
-# os.system("chmod +x /usr/bin/apt*")
-# os.system("apt update")
-# os.system("systemctl enable ntp")
-# os.system("systemctl start ntp")
-# os.system("systemctl enable ssh")
-# os.system("systemctl start ssh")
+os.system("chmod +x /usr/bin/apt*")
+os.system("apt update")
+os.system("systemctl enable ntp")
+os.system("systemctl start ntp")
+os.system("systemctl enable ssh")
+os.system("systemctl start ssh")
+os.system("systemctl enable docker.service")
+os.system("systemctl enable containerd.service")
