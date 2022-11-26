@@ -6,7 +6,9 @@ It is expected that [TrueNAS Scale](https://www.truenas.com/download-truenas-sca
 
 Make sure your home network isn't blocking UDP 123 which is what NTP uses.
 
-And setup a duckdns domain and 
+And setup a duckdns domain [here](https://www.duckdns.org). Then configure through the TrueNAS UI the dynamic DNS.
+
+![TrueNAS DuckDNS configuration](./duckdns.png)
 
 Clone this repo under the root user, and run
 
