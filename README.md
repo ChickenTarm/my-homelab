@@ -13,3 +13,6 @@ And setup a duckdns domain [here](https://www.duckdns.org). Then configure throu
 Clone this repo under the root user, and run
 
     python3 setup_my_homelab.py
+
+To allow an IDE to ssh into TrueNAS
+![TrueNAS SSH configuration](./ssh.png)
